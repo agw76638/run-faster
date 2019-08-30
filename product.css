@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2a2a2a;
+}
+
+button {
+  color: white;
+  font-family: "Russo One", sans-serif;
+}
+
+main {
+  color: white;
+  font-family: "Russo One", sans-serif;
+}
+
+.presentation {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  height: 100vh;
+}
+
+.intro {
+  flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 72px;
+}
+.intro-text p {
+  font-size: 30px;
+  margin: 35px 0px 35px 0px;
+}
+
+.shop {
+  background: #813638;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.cover {
+  flex: 1;
+  border-radius: 50px;
+  background: #c4c4c4;
+  width: 800px;
+  height: 800px;
+}
+
+.circles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+}
+.circle1 {
+  background: #ff444b;
+}
+.circle2 {
+  background: #8044ff;
+}
+.circle3 {
+  background: #44ff8f;
+}
