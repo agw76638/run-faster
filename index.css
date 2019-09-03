@@ -21,14 +21,17 @@ header {
 }
 
 nav {
-  width: 50%;
   margin-left: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
   justify-content: space-around;
+  width: 70%;
 }
 .nav-link {
   color: #636877;
@@ -99,4 +102,57 @@ nav {
 
 .cover img {
   height: 100%;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #813638;
+  margin: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: 10vh;
+    background-color: #813638;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+  .presentation {
+    flex-direction: column;
+  }
+  .cta {
+    align-self: center;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
 }
