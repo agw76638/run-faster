@@ -1,0 +1,27 @@
+{
+  "name": "run-faster",
+  "version": "1.0.0",
+  "description": "made design tutorial into code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agw76638/run-faster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agw76638/run-faster/issues"
+  },
+  "homepage": "https://github.com/agw76638/run-faster#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^6.2.0"
+  }
+}

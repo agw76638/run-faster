@@ -67,3 +67,15 @@ input {
 .message {
   height: 160px;
 }
+
+@media screen and (max-width: 1024px) {
+  main {
+    flex-direction: column;
+  }
+  .circle {
+    display: none;
+  }
+  form label {
+    color: #813638;
+  }
+}
